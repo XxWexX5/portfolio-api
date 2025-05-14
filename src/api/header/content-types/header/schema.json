@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "headers",
+  "info": {
+    "singularName": "header",
+    "pluralName": "headers",
+    "displayName": "header"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "links": {
+      "type": "enumeration",
+      "enum": [
+        "About me",
+        "Work",
+        "Formation",
+        "Contact"
+      ]
+    }
+  }
+}
