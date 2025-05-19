@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_technologie_technologies",
+  "info": {
+    "displayName": "technologie",
+    "icon": "server"
+  },
+  "options": {},
+  "attributes": {
+    "technologie": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "language_skills",
+  "info": {
+    "singularName": "language-skill",
+    "pluralName": "language-skills",
+    "displayName": "language-skills"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "languages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "language-item.language-item"
+    }
+  }
+}

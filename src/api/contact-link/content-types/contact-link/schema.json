@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_links",
+  "info": {
+    "singularName": "contact-link",
+    "pluralName": "contact-links",
+    "displayName": "contact-links"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "contacts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-item.contact-item"
+    }
+  }
+}

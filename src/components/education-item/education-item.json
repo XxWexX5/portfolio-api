@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_education_item_education_items",
+  "info": {
+    "displayName": "education-item",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "course": {
+      "type": "string",
+      "required": true
+    },
+    "institution": {
+      "type": "string",
+      "required": true
+    },
+    "period": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

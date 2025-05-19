@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_client_clients",
+  "info": {
+    "displayName": "client",
+    "icon": "emotionHappy"
+  },
+  "options": {},
+  "attributes": {
+    "client": {
+      "type": "string"
+    }
+  }
+}

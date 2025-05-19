@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "project_galleries",
+  "info": {
+    "singularName": "project-gallery",
+    "pluralName": "project-galleries",
+    "displayName": "project-gallery"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "education_sections",
+  "info": {
+    "singularName": "education-section",
+    "pluralName": "education-sections",
+    "displayName": "education-section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "education-item.education-item"
+    }
+  }
+}

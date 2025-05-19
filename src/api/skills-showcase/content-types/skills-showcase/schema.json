@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skills_showcases",
+  "info": {
+    "singularName": "skills-showcase",
+    "pluralName": "skills-showcases",
+    "displayName": "Skills-showcase",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "topic": {
+      "type": "component",
+      "repeatable": true,
+      "component": "topic.topic"
+    }
+  }
+}

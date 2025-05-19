@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quick_access_icons",
+  "info": {
+    "singularName": "quick-access-icon",
+    "pluralName": "quick-access-icons",
+    "displayName": "quick-access-icons"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "icons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "icon-action.icon-action"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experience_sections",
+  "info": {
+    "singularName": "experience-section",
+    "pluralName": "experience-sections",
+    "displayName": "experience-section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "experience-item.experience-item"
+    }
+  }
+}

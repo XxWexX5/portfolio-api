@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_icon_action_icon_actions",
+  "info": {
+    "displayName": "icon-action",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "actionType": {
+      "type": "enumeration",
+      "enum": [
+        "link",
+        "email",
+        "phone",
+        "modal",
+        "anchor"
+      ]
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

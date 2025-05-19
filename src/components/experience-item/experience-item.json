@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_experience_item_experience_items",
+  "info": {
+    "displayName": "experience-item",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "role": {
+      "type": "string",
+      "required": true
+    },
+    "company": {
+      "type": "string",
+      "required": true
+    },
+    "period": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "technologies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "technologie.technologie"
+    },
+    "clients": {
+      "type": "component",
+      "repeatable": true,
+      "component": "client.client"
+    },
+    "descriptionClient": {
+      "type": "string"
+    }
+  }
+}

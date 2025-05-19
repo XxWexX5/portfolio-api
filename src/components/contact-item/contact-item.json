@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_contact_item_contact_items",
+  "info": {
+    "displayName": "contact-item",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "platform": {
+      "type": "string"
+    },
+    "displayText": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "social",
+        "email",
+        "phone",
+        "file"
+      ]
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

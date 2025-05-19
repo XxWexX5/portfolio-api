@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_topic_topics",
+  "info": {
+    "displayName": "topics",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "topic": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "button_ctas",
+  "info": {
+    "singularName": "button-cta",
+    "pluralName": "button-ctas",
+    "displayName": "Button CTA"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
