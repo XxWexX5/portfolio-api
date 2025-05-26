@@ -4,20 +4,36 @@
   "info": {
     "singularName": "language-skill",
     "pluralName": "language-skills",
-    "displayName": "language-skills"
+    "displayName": "language-skills",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "languages": {
       "type": "component",
       "repeatable": true,
-      "component": "language-item.language-item"
+      "component": "language-item.language-item",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

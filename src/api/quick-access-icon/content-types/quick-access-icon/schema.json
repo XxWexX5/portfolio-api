@@ -4,16 +4,27 @@
   "info": {
     "singularName": "quick-access-icon",
     "pluralName": "quick-access-icons",
-    "displayName": "quick-access-icons"
+    "displayName": "quick-access-icons",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
   },
   "attributes": {
     "icons": {
       "type": "component",
       "repeatable": true,
-      "component": "icon-action.icon-action"
+      "component": "icon-action.icon-action",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

@@ -10,11 +10,21 @@
   "options": {
     "draftAndPublish": true
   },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "links": {
       "type": "component",
       "repeatable": true,
-      "component": "link.link"
+      "component": "link.link",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

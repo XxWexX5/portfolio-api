@@ -4,20 +4,36 @@
   "info": {
     "singularName": "contact-link",
     "pluralName": "contact-links",
-    "displayName": "contact-links"
+    "displayName": "contact-links",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "contacts": {
       "type": "component",
       "repeatable": true,
-      "component": "contact-item.contact-item"
+      "component": "contact-item.contact-item",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
