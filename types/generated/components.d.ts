@@ -59,6 +59,18 @@ export interface ExperienceItemExperienceItem extends Struct.ComponentSchema {
   };
 }
 
+export interface GalleryGallery extends Struct.ComponentSchema {
+  collectionName: 'components_gallery_galleries';
+  info: {
+    displayName: 'gallery';
+    icon: 'landscape';
+  };
+  attributes: {
+    image: Schema.Attribute.Media<'images'>;
+    link: Schema.Attribute.String;
+  };
+}
+
 export interface IconActionIconAction extends Struct.ComponentSchema {
   collectionName: 'components_icon_action_icon_actions';
   info: {
@@ -132,6 +144,7 @@ declare module '@strapi/strapi' {
       'contact-item.contact-item': ContactItemContactItem;
       'education-item.education-item': EducationItemEducationItem;
       'experience-item.experience-item': ExperienceItemExperienceItem;
+      'gallery.gallery': GalleryGallery;
       'icon-action.icon-action': IconActionIconAction;
       'language-item.language-item': LanguageItemLanguageItem;
       'link.link': LinkLink;

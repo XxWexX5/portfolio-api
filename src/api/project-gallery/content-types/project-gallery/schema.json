@@ -4,21 +4,17 @@
   "info": {
     "singularName": "project-gallery",
     "pluralName": "project-galleries",
-    "displayName": "project-gallery"
+    "displayName": "project-gallery",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "attributes": {
-    "image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true
+    "gallery": {
+      "type": "component",
+      "repeatable": true,
+      "component": "gallery.gallery"
     }
   }
 }

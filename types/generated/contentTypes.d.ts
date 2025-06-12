@@ -800,6 +800,7 @@ export interface ApiProjectGalleryProjectGallery
   extends Struct.CollectionTypeSchema {
   collectionName: 'project_galleries';
   info: {
+    description: '';
     displayName: 'project-gallery';
     pluralName: 'project-galleries';
     singularName: 'project-gallery';
@@ -811,10 +812,7 @@ export interface ApiProjectGalleryProjectGallery
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    image: Schema.Attribute.Media<
-      'images' | 'files' | 'videos' | 'audios',
-      true
-    >;
+    gallery: Schema.Attribute.Component<'gallery.gallery', true>;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -884,6 +882,7 @@ export interface ApiSkillsShowcaseSkillsShowcase
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     image: Schema.Attribute.Media<'images'>;
+    link: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
